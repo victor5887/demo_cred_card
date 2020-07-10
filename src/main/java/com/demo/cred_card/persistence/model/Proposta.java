@@ -1,7 +1,6 @@
 package com.demo.cred_card.persistence.model;
 
 import javax.persistence.*;
-import java.math.BigDecimal;
 
 @Entity
 public class Proposta {
@@ -18,7 +17,7 @@ public class Proposta {
     @Column(nullable = false)
     private String resultadoAnalise;
 
-    @Column(nullable = true)
+    @Column
     private String limiteCreditoCliente;
 
     @Column(nullable = false)
